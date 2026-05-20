@@ -1,0 +1,30 @@
+qa-automation-cypress/
+│
+├── cypress/
+│   ├── e2e/
+│   │   ├── login.cy.js
+│   │   ├── cadastro.cy.js
+│   │   └── checkout.cy.js
+│   │
+│   ├── fixtures/
+│   │   └── usuarios.json
+│   │
+│   ├── pages/
+│   │   ├── LoginPage.js
+│   │   ├── CadastroPage.js
+│   │   └── CheckoutPage.js
+│   │
+│   ├── support/
+│   │   ├── commands.js
+│   │   └── e2e.js
+│   │
+│   └── reports/
+│
+├── .github/
+│   └── workflows/
+│       └── cypress.yml
+│
+├── package.json
+├── cypress.config.js
+├── .gitignore
+└── README.md
