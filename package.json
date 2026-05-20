@@ -1,6 +1,7 @@
 {
   "name": "qa-automation-cypress",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "cypress.config.js",
   "scripts": {
@@ -12,5 +13,18 @@
   "type": "commonjs",
   "devDependencies": {
     "cypress": "^15.15.0"
+=======
+  "description": "Projeto de automação E2E utilizando Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "report": "marge mochawesome-report/mochawesome.json"
+  },
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+>>>>>>> 0809212d4e54114bfcbbb61fd0989d9282642609
   }
 }
